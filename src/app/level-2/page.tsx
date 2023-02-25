@@ -17,16 +17,10 @@ export default function Level2() {
 					src={"/image.jpg"}
 					placeholder="blur"
 					blurDataURL="data:..."
-					className={`opacity-[${Number(range) / 100}]`}
+					style={{ opacity: Number(range) / 100 }}
 				/>
 			</div>
 
-			<p className="opacity-30">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-				Deleniti, delectus.
-			</p>
-			{/* {range} */}
-			{Number(range) / 100}
 			<Slider range={range} setRange={setRange} />
 		</div>
 	);
