@@ -1,16 +1,15 @@
 "use client";
 
 // import { useState } from "react";
+import type { Dispatch, SetStateAction } from "react";
 
 export default function Slider({
 	range,
 	setRange,
 }: {
 	range: string;
-	setRange: Function;
+	setRange: Dispatch<SetStateAction<string>>;
 }) {
-	// const [range, setRange] = useState("50");
-
 	return (
 		<input
 			onChange={(e) => setRange(e.target.value)}
