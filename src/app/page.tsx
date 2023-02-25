@@ -1,5 +1,6 @@
 import { Inter } from "@next/font/google";
 import Link from "next/link";
+import Input from "./components/Input";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,17 +20,7 @@ export default function Home() {
 					{" to watch the video"}
 				</span>
 				<div>
-					<input
-						type="text"
-						placeholder="Enter text here"
-						className="mt-1 w-full rounded-md border-gray-400 shadow-sm sm:text-sm md:text-base mb-6"
-					/>
-					<Link
-						href={"/level-2"}
-						className="bg-blue-400 text-white px-6 py-2 rounded-md text-lg hover:bg-blue-500 duration-300"
-					>
-						Next &rarr;
-					</Link>
+					<Input />
 				</div>
 			</div>
 		</main>
