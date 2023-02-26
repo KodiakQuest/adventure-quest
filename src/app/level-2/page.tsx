@@ -26,8 +26,8 @@ export default function Level2() {
           <br />
           Here are the hints for their ages-
           <br /> 1)First brother age was always maximum. <br />
-          2)Middle brother age is little less than half age and last brother's
-          was higher than half.
+          2)Middle brother age is little less than half age and last
+          brother&apos;s was higher than half.
           <br /> 3)At last .
         </p>
       </div>
