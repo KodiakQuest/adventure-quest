@@ -17,9 +17,22 @@ export default function Level2() {
       : null;
 
   return (
-    <div className="w-screen h-screen sm:flex  sm:justify-evenly items-center">
-      <div>description</div>
-      <div className="space-y-10">
+    <div className="w-screen h-screen sm:flex  sm:justify-evenly items-center p-4">
+      <div className="sm:w-3/6">
+        <h1 className="bg-blue-500 text-white p-2 w-fit">description</h1>
+        <p className="mt-6">
+          Below are ages of three brothers. If you arrange their ages correctly
+          you will get next clue
+          <br />
+          Here are the hints for their ages-
+          <br /> 1)First brother age was always maximum. <br />
+          2)Middle brother age is little less than half age and last brother's
+          was higher than half.
+          <br /> 3)At last .
+        </p>
+      </div>
+
+      <div className="space-y-10 mt-4">
         <div className="relative">
           <Link
             href={"/level-3"}
