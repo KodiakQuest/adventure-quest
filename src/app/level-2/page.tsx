@@ -25,10 +25,12 @@ export default function Level2() {
           you will get next clue
           <br />
           Here are the hints for their ages-
-          <br /> 1)First brother age was always maximum. <br />
-          2)Middle brother age is little less than half age and last
-          brother&apos;s was higher than half.
-          <br /> 3)At last .
+          <br />
+          1)Last brother is of highest age.
+          <br />
+          2)Middle brother age is more than half age but less than 3/4th age
+          <br />
+          3)First brother is below half age.
         </p>
       </div>
 

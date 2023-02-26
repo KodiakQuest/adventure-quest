@@ -20,6 +20,9 @@ export default function Home() {
           {" to watch the video"}
         </span>
         <div>
+          <p className="my-5">
+            MENTION THE CLUE YOU GOT BEFORE TO VERIFY AND TO REACH NEXT LEVEL
+          </p>
           <Input />
         </div>
       </div>
