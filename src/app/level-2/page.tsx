@@ -19,7 +19,9 @@ export default function Level2() {
   return (
     <div className="w-screen h-screen sm:flex  sm:justify-evenly items-center p-4">
       <div className="sm:w-3/6">
-        <h1 className="bg-blue-500 text-white p-2 w-fit">description</h1>
+        <h1 className="text-blue-500 text-4xl font-semibold p-2 w-fit">
+          Description
+        </h1>
         <p className="mt-6">
           Below are ages of three brothers. If you arrange their ages correctly
           you will get next clue
@@ -64,7 +66,7 @@ export default function Level2() {
 			`}
           />
         </div>
-        <div>
+        <div className="flex">
           <label>Slider 1:</label>
           <input
             type="range"
@@ -73,8 +75,11 @@ export default function Level2() {
             value={slider1Value}
             onChange={(e) => setSlider1Value(parseInt(e.target.value))}
           />
+          <div className="ml-5 bg-blue-500 w-6 text-white text-center">
+            {slider1Value}
+          </div>
         </div>
-        <div>
+        <div className="flex">
           <label>Slider 2:</label>
           <input
             type="range"
@@ -83,8 +88,11 @@ export default function Level2() {
             value={slider2Value}
             onChange={(e) => setSlider2Value(parseInt(e.target.value))}
           />
+          <div className="ml-5 bg-blue-500 w-6 text-white text-center">
+            {slider2Value}
+          </div>
         </div>
-        <div>
+        <div className="flex">
           <label>Slider 3:</label>
           <input
             type="range"
@@ -93,6 +101,9 @@ export default function Level2() {
             value={slider3Value}
             onChange={(e) => setSlider3Value(parseInt(e.target.value))}
           />
+          <div className="ml-5 bg-blue-500 w-6 text-white text-center">
+            {slider3Value}
+          </div>
         </div>
       </div>
     </div>
